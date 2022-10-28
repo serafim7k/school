@@ -8,15 +8,79 @@
   <title>שאלון</title>
 </head>
 <body>
-  <p class="answer">2 + 2 = ?</p>
+  <header class="header">
+    <h1 class="top_title">!!!תרגול</h1>
+    
+    <div class="test">
+      <img class="meme_img" src="images/1643172162_1-damion-club-p-obezyana-s-nosom-1.jpg" alt="meme_img">
+      <img class="meme_img_2" src="images/t57-full.jpg" alt="meme_img">
 
-  <input id="in" type="button" value="4.0" onclick="its_false(c);">
-  <input type="button" value="4" onclick="its_true(c);">
-  <input id="in" type="button" value="34" onclick="its_false(c);"><br><br>
-  <input type="button" value="my points" onclick="points(b);">
-  <p class="answer" id="answer_1"></p>
-  <h3 class="answer" id="point"></h3>
+      <div class="questions">
+        <h3 class="title">?מה יהיה הפלט</h3>
 
-  <script src="js/main.js"></script>
+        <img src="images/Screenshot 2022-10-25 163230.png" alt=""><br>
+
+        <div class="answers">
+          <input id="in" type="button" value="if" onclick="its_false(answer_1);">
+          <input id="in" type="button" value="elif" onclick="its_true(answer_1);">
+          <input type="button" value="else" onclick="its_false(answer_1);">
+        </div>
+
+        <p class="answer" id="answer_1"></p><br>
+      </div>
+
+        <!------------------------------------------------------>
+
+      <div class="questions">
+        <h3 class="title">תבחרו אופרטור ואת הפלט הנכון</h3>
+
+        <img class="question" src="images/Screenshot 2022-10-25 170405.png" alt=""><br>
+
+        <div class="answers">
+          <input id="in" type="button" value='operator = "+" | 33.0' onclick="its_false(answer_2);">
+          <input type="button" value='operator = "-" | -19' onclick="its_false(answer_2);">
+          <input type="button" value='operator = ":" | 0.5714285741' onclick="its_false(answer_2);">
+          <input id="in" type="button" value='operator = "*" | 252' onclick="its_true(answer_2);">
+          <input type="button" value='operator = "^" | 454' onclick="its_false(answer_2);">
+        </div>
+
+        <p class="answer" id="answer_2"></p><br>
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div class="questions">
+        <h3 class="title">?מה יהיה הפלט</h3>
+
+        <img src="images/Screenshot 2022-10-25 172657.png" alt="">
+
+        <div class="answers">
+          <input id="in" type="button" value="1" onclick="its_false(answer_3);">
+          <input type="button" value="22" onclick="its_false(answer_3);">
+          <input id="in" type="button" value="121" onclick="its_true(answer_3);">
+        </div>
+
+        <p class="answer" id="answer_3"></p><br>
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div class="questions">
+        <h3 class="title">?מה יהיה הפלט</h3>
+
+        <img class="question" src="images/Screenshot 2022-10-25 175603.png" alt="">
+
+        <div class="answers">
+          <input id="in" type="button" value="Cancel lessons" onclick="its_true(answer_4);">
+          <input id="in" type="button" value="It's democracy" onclick="its_false(answer_4);">
+          <input type="button" value="Shit" onclick="its_false(answer_4);">
+        </div>
+
+        <p class="answer" id="answer_4"></p><br>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </header>
 </body>
 </html>

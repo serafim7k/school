@@ -1,33 +1,95 @@
-var c = document.getElementById('answer_1')
-var b = document.getElementById('point')
-// var point = "0";
-var True = true
-var False = false
+var answer_1 = document.getElementById('answer_1');
+var answer_2 = document.getElementById('answer_2');
+var answer_3 = document.getElementById('answer_3');
+var answer_4 = document.getElementById('answer_4');
+var int = document.getElementById('in');
+var True = true;
+var False = false;
 
 function its_false(param) {
-  if (c == True) {
-    False = True;
-  }
-  else{
-    True = False;
-  }
+  // if (answer_1 == True) {
+  //   False = True;
+  // }
+  // else{
+  //   True = False;
+  // }
   param.innerHTML = False;
 }
 
 function its_true(param) {
-  if (c == False) {
-    True = False;
-  }
-  else{
-    False = True;
-  }
+  // if (answer_1 == False) {
+  //   True = False;
+  // }
+  // else{
+  //   False = True;
+  // }
   param.innerHTML = True;
 }
 
-// function points(param) {
-// if (c == True) {
-//   point = "100";
-// }
+///////////////////////////////////////////////////////////
 
-//   param.innerHTML = point;
-// }
+function its_false(param) {
+  // if (answer_2 == True) {
+  //   False = True;
+  // }
+  // else{
+  //   True = False;
+  // }
+  param.innerHTML = False;
+}
+
+function its_true(param) {
+  // if (answer_2 == False) {
+  //   True = False;
+  // }
+  // else{
+  //   False = True;
+  // }
+  param.innerHTML = True;
+}
+
+///////////////////////////////////////////////////////////
+
+function its_false(param) {
+  // if (answer_3 == True) {
+  //   False = True;
+  // }
+  // else{
+  //   True = False;
+  // }
+  param.innerHTML = False;
+}
+
+function its_true(param) {
+  // if (answer_3 == False) {
+  //   True = False;
+  // }
+  // else{
+  //   False = True;
+  // }
+  param.innerHTML = True;
+}
+
+///////////////////////////////////////////////////////////
+
+function its_false(param) {
+  // if (answer_4 == True) {
+  //   False = True;
+  // }
+  // else{
+  //   True = False;
+  // }
+  param.innerHTML = False;
+}
+
+function its_true(param) {
+  // if (answer_4 == False) {
+  //   True = False;
+  // }
+  // else{
+  //   False = True;
+  // }
+  param.innerHTML = True;
+}
+
+
