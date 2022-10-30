@@ -2,7 +2,6 @@ var answer_1 = document.getElementById('answer_1');
 var answer_2 = document.getElementById('answer_2');
 var answer_3 = document.getElementById('answer_3');
 var answer_4 = document.getElementById('answer_4');
-var int = document.getElementById('in');
 var True = true;
 var False = false;
 

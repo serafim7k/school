@@ -40,6 +40,19 @@ body{
   right: -20px;
 }
 
+.meme_img:hover{
+  animation-name: meme_img;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.meme_img_2:hover{
+  animation-name: meme_img_2;
+  /* transform: translateX(50px) rotate(15deg); */
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
 .questions{
   border: white solid 1px;
 }
@@ -88,4 +101,32 @@ input:hover{
   border: blue solid 2px;
   background-color: white;
   text-transform: uppercase;
+}
+
+@keyframes meme_img_2{
+  0% {
+    transform: translateY(0) rotate(-60deg);
+  }
+
+  100% {
+    transform: translate(70px, -70px) rotate(-60deg);
+  }
+}
+
+@keyframes meme_img{
+  0%{
+    transform: rotate(0deg);
+  }
+  /* 25%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75%{
+    transform: rotate(270deg);
+  } */
+  100%{
+    transform: rotate(360deg);
+  }
 }
