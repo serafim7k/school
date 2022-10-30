@@ -77,6 +77,10 @@ input{
   padding: 5px;
 }
 
+input:hover{
+  background-color: rgb(245, 245, 109);
+}
+
 .answer{
   display: flex;
   justify-content: center;
