@@ -40,6 +40,31 @@ body{
   right: -20px;
 }
 
+.meme_img_3{
+  width: 200px;
+  position: fixed;
+  top: 700px;
+  right: 300px;
+  z-index: 4;
+}
+
+.meme_img_4{
+  width: 200px;
+  position: fixed;
+  top: 700px;
+  right: 300px;
+  z-index: 2;
+}
+
+.diologe{
+  width: 80px;
+  position: fixed;
+  top: 700px;
+  right: 420px;
+  z-index: 3;
+  /* display: none; */
+}
+
 .meme_img:hover{
   animation-name: meme_img;
   animation-duration: 0.75s;
@@ -51,6 +76,18 @@ body{
   /* transform: translateX(50px) rotate(15deg); */
   animation-duration: 1s;
   animation-fill-mode: forwards;
+}
+
+.meme_img_3:hover{
+  /* animation-name: meme_img_3;
+  animation-duration: 10s;
+  animation-fill-mode: forwards; */
+  display: none;
+
+}
+
+.meme_img_4:hover{
+  display: flex;
 }
 
 .questions{
@@ -130,3 +167,12 @@ input:hover{
     transform: rotate(360deg);
   }
 }
+
+/* @keyframes meme_img_3 {
+  0%{
+    transform: translateX(1000px);
+  }
+  100%{
+    transform: translateX(1000px);
+  } 
+} */
