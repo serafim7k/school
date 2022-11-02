@@ -95,7 +95,7 @@ body{
   border: white solid 1px;
 }
 
-img{
+.question_img{
   width: 400px;
 }
 
@@ -177,3 +177,221 @@ input:hover{
     transform: translateX(1000px);
   } 
 } */
+
+@media(max-width: 1850px){
+  .meme_img{
+    width: 400px;
+  }
+  
+  .meme_img_2{
+    width: 200px\;
+  }
+
+  .meme_img_3{
+    width: 150px;
+    height: 155px;
+  }
+  
+  .meme_img_4{
+    width: 150px;
+    height: 155px;
+  }
+
+  .diologe{
+    width: 70px;
+    right: 380px;
+  }
+}
+
+@media(max-width: 1626px){
+  .meme_img {
+      width: 350px;
+    }
+  
+  .meme_img_2 {
+      width: 175px;
+    }
+  
+  .meme_img_3 {
+      width: 150px;
+      height: 155px;
+      right: 250px;
+    }
+  
+  .meme_img_4 {
+    width: 150px;
+    height: 155px;
+    right: 250px;
+  }
+  
+  .diologe {
+    width: 70px;
+    right: 330px;
+  }
+}
+
+@media(max-width: 1518px){
+  .meme_img{
+    width: 300px;
+  }
+
+  .meme_img_3 {
+      width: 150px;
+      height: 155px;
+      right: 220px;
+    }
+  
+    .meme_img_4 {
+      width: 150px;
+      height: 155px;
+      right: 220px;
+    }
+  
+    .diologe {
+      width: 70px;
+      right: 300px;
+    }
+}
+
+@media(max-width: 1428px){
+  .meme_img {
+      width: 220px;
+    }
+  
+  .meme_img_3 {
+    width: 100px;
+    height: 105px;
+    right: 120px;
+  }
+
+  .meme_img_4 {
+    width: 100px;
+    height: 105px;
+    right: 120px;
+  }
+
+  .diologe {
+    width: 20px;
+    right: 200px;
+  }
+}
+
+@media(max-width: 1264px){
+  .meme_img {
+      width: 160px;
+    }
+
+  .meme_img_3 {
+    right: 120px;
+  }
+
+  .meme_img_4 {
+    right: 120px;
+  }
+
+  .diologe {
+    right: 200px;
+  }
+}
+
+@media(max-width: 1150px){
+  .meme_img{
+    width: 80px;
+  }
+
+  .meme_img_2{
+    width: 120px;
+  }
+
+  .meme_img_3{
+    right: 60px;
+  }
+
+  .meme_img_4{
+    right: 60px;
+  }
+
+  .diologe{
+    right: 120px;
+  }
+
+  @keyframes meme_img_2 {
+    0% {
+      transform: translateY(0) rotate(-60deg);
+    }
+
+    100% {
+      transform: translate(20px, -20px) rotate(-60deg);
+    }
+  }
+}
+
+@media(max-width: 972px){
+  .meme_img{
+    display: none;
+  }
+
+  .meme_img_3{
+    display: none;
+  }
+
+  .meme_img_4 {
+    display: none;
+  }
+
+  .diologe{
+    display: none;
+  }
+}
+
+@media(max-width: 838px){
+  .meme_img_2{
+    display: none;
+  }
+}
+
+@media(max-width: 632px){
+  .question_img{
+    width: 300px;
+  }
+
+  .question{
+    width: 500px;
+  }
+}
+
+@media(max-width: 838px) {
+  .meme_img_2 {
+    display: none;
+  }
+}
+
+@media(max-width: 546px) {
+  .question_img {
+    width: 200px;
+  }
+
+  .question {
+    width: 400px;
+  }
+}
+
+@media(max-width: 428px) {
+  .question_img {
+    width: 190px;
+  }
+
+  .question {
+    width: 300px;
+  }
+}
+
+@media(max-width: 340px) {
+  .question_img {
+    width: 190px;
+  }
+
+  .question {
+    width: 200px;
+  }
+}
