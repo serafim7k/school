@@ -26,7 +26,7 @@ body{
 }
 
 .meme_img{
-  width: 500px;
+  width: 400px;
   position: fixed;
   top: 300px;
   left: 100px;
@@ -97,6 +97,10 @@ body{
 
 .question_img{
   width: 400px;
+}
+
+.question_img_3{
+  width: 700px;
 }
 
 .title{
@@ -180,7 +184,7 @@ input:hover{
 
 @media(max-width: 1850px){
   .meme_img{
-    width: 400px;
+    width: 300px;
   }
   
   .meme_img_2{
@@ -205,7 +209,7 @@ input:hover{
 
 @media(max-width: 1626px){
   .meme_img {
-      width: 350px;
+      width: 250px;
     }
   
   .meme_img_2 {
@@ -232,7 +236,7 @@ input:hover{
 
 @media(max-width: 1518px){
   .meme_img{
-    width: 300px;
+    width: 200px;
   }
 
   .meme_img_3 {
