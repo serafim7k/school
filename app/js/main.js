@@ -3,11 +3,11 @@ var answer_2 = document.getElementById('answer_2');
 var answer_3 = document.getElementById('answer_3');
 var answer_4 = document.getElementById('answer_4');
 var answer_5 = document.getElementById('answer_5');
-var answer_5 = document.getElementById('answer_6');
-var answer_5 = document.getElementById('answer_7');
-var answer_5 = document.getElementById('answer_8');
-var answer_5 = document.getElementById('answer_9');
-var answer_5 = document.getElementById('answer_10');
+var answer_6 = document.getElementById('answer_6');
+var answer_7 = document.getElementById('answer_7');
+var answer_8 = document.getElementById('answer_8');
+var answer_9 = document.getElementById('answer_9');
+var answer_10 = document.getElementById('answer_10');
 var True = true;
 var False = false;
 
@@ -148,7 +148,7 @@ function its_false_6(param) {
 
 function its_true_6(param) {
   if (answer_6 == False_6) {
-    True_5 = False_6;
+    True_6 = False_6;
   }
   else{
     False_6 = True_6;
