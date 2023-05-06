@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/logo.jpg">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>שאלון</title>
+</head>
+<body id="top">
+  <header class="header">
+    
+    <div class="pages__nav">
+      <ul class="pages__items-nav">
+        <li class="pages__item-list">
+          <a class="pages__item-link home" href="#" onclick="home__page();">Home</a>
+        </li>
+        <li class="pages__item-list">
+          <a class="pages__item-link" href="#" onclick="points__func();">Points</a>
+        </li>
+      </ul>
+    </div>
+    <nav class="menu">
+      <ul class="nav__items">
+        <li class="nav__item"><a class="nav__item-link" href="#top">top</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#1">1</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#2">2</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#3">3</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#4">4</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#5">5</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#6">6</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#7">7</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#8">8</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#9">9</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#10">10</a></li>
+      </ul>
+    </nav>
+    <div class="top_title">
+      <h1>!!!תרגול</h1>
+      <!-- <p>
+        Congradulations friends,<br>
+        you have completed the tutorial and now you can go to the test!
+      </p> -->
+    </div>
+    <div class="stars">
+      <div class="star star1"></div>
+      <div class="star star2"></div>
+      <div class="star star3"></div>
+      <div class="star star4"></div>
+    </div>
+    
+    <div class="test">
+
+        <!--האם הקוד עובד?                     הקוד עובד        הקוד לא עובד-->
+
+
+
+      <div id="1" class="questions first_questions">
+        <h3 class="title"><span>1</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_1.png" alt=""><br>
+
+        <div class="answers">
+          <input class="input" id="answer_1_true" type="button" value="הקוד עובד" onclick="its_true(1);">
+          <input class="input" id="answer_1_false" type="button" value="הקוד לא עובד" onclick="its_false(1);">
+        </div>
+
+        <!-- <p class="answer" id="answer_1"></p><br> -->
+      </div>
+
+        <!------------------------------------------------------>
+
+      <div id="2" class="questions">
+        <h3 class="title"><span>2</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_2.png" alt=""><br>
+
+        <div class="answers">
+          <input class="input" id="answer_2_true" type="button" value='הקוד לא עובד' onclick="its_true(2);">
+          <input class="input" id="answer_2_false" type="button" value='הקוד עובד' onclick="its_false(2);">
+        </div>
+
+        <!-- <p class="answer" id="answer_2"></p><br> -->
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div id="3" class="questions">
+        <h3 class="title"><span>3</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_3.png" alt="">
+
+        <div class="answers">
+          <input class="input" id="answer_3_false" type="button" value="הקוד לא עובד" onclick="its_false(3);">
+          <input class="input" id="answer_3_true" type="button" value="הקוד עובד" onclick="its_true(3);">
+        </div>
+
+        <!-- <p class="answer" id="answer_3"></p><br> -->
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div id="4" class="questions">
+        <h3 class="title"><span>4</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_4.png" alt="">
+
+        <div class="answers">
+          <input class="input" id="answer_4_true" type="button" value="הקוד לא עובד" onclick="its_true(4);">
+          <input class="input" id="answer_4_false" type="button" value="הקוד עובד" onclick="its_false(4);">
+        </div>
+
+        <!-- <p class="answer" id="answer_4"></p><br> -->
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div id="5" class="questions">
+        <h3 class="title"><span>5</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_5.png" alt="">
+
+        <div class="answers">
+          <input class="input" id="answer_5_false" type="button" value="הקוד לא עובד" onclick="its_false(5);">
+          <input class="input" id="answer_5_true" type="button" value="הקוד עובד" onclick="its_true(5);">
+        </div>
+
+        <!-- <p class="answer" id="answer_5"></p><br> -->
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div id="6" class="questions">
+        <h3 class="title"><span>6</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_6.png" alt="">
+
+        <div class="answers">
+          <input class="input" id="answer_6_true" type="button" value="הקוד לא עובד" onclick="its_true(6);">
+          <input class="input" id="answer_6_false" type="button" value="הקוד עובד" onclick="its_false(6);">
+        </div>
+
+        <!-- <p class="answer" id="answer_6"></p><br> -->
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div id="7" class="questions">
+        <h3 class="title"><span>7</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_7.png" alt="">
+
+        <div class="answers">
+          <input class="input" id="answer_7_true" type="button" value="הקוד לא עובד" onclick="its_true(7);">
+          <input class="input" id="answer_7_false" type="button" value="הקוד עובד" onclick="its_false(7);">
+        </div>
+
+        <!-- <p class="answer" id="answer_7"></p><br> -->
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div id="8" class="questions">
+        <h3 class="title"><span>8</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_8.png" alt="">
+
+        <div class="answers">
+          <input class="input" id="answer_8_false" type="button" value="הקוד לא עובד" onclick="its_false(8);">
+          <input class="input" id="answer_8_true" type="button" value="הקוד עובד" onclick="its_true(8);">
+        </div>
+
+        <!-- <p class="answer" id="answer_8"></p><br> -->
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div id="9" class="questions">
+        <h3 class="title"><span>9</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_9.png" alt="">
+
+        <div class="answers">
+          <input class="input" id="answer_9_true" type="button" value="הקוד עובד" onclick="its_true(9);">
+          <input class="input" id="answer_9_false" type="button" value="הקוד לא עובד" onclick="its_false(9);">
+        </div>
+
+        <!-- <p class="answer" id="answer_9"></p><br> -->
+      </div>
+
+      <!------------------------------------------------------>
+
+      <div id="10" class="questions final_questions">
+        <h3 class="title"><span>10</span> ?האם הקוד עובד</h3>
+
+        <img class="question_img" src="../images/img_qs_10.png" alt="">
+
+        <div class="answers">
+          <input class="input" id="answer_10_true" type="button" value="הקוד עובד" onclick="its_true(10);">
+          <input class="input" id="answer_10_false" type="button" value="הקוד לא עובד" onclick="its_false(10);">
+        </div>
+
+        <!-- <p class="answer" id="answer_10"></p><br> -->
+      </div>
+
+      <a class="points__input check__points" href="#show__points" onclick="points__func();">SEND</a>
+    </div>
+
+    <div id="show__points">
+      <h1 class="the__points">Your points: 
+          <span id="good" class="good">
+          </span>
+          <span id="bed" class="bed">
+          </span>
+      </h1>
+    </div>
+
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </header>
+</body>
+</html>
