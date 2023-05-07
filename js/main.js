@@ -1,5 +1,6 @@
 let your_points = document.getElementById('your__points');
 let questions = [];
+// let complite_answers = ``
 let points_score = 0;
 let good_score = document.getElementById('good');
 let bed_score = document.getElementById('bed');
@@ -23,6 +24,8 @@ function its_false(question_num) {
   if (questions.includes(question_num) != true){
     $('#answer_'+question_num+'_false').addClass('input--active');
     questions.push(question_num);
+    // answers.push(`` + question_num);
+    // answers.push(`false`);
   }
 }
 
@@ -31,6 +34,8 @@ function its_true(question_num) {
     points_score = points_score +  10;
     questions.push(question_num);
     $('#answer_'+question_num+'_true').addClass('input--active');
+    // answers.push(`` + question_num);
+    // answers.push(`true`);
   }
 }
 
@@ -40,6 +45,7 @@ function points__func() {
   $('.test').addClass('test--hide');
   $('.top_title').addClass('top_title--hide');
   $('.nav__items').addClass('nav__items--hide');
+  // $('.questions_answers--hide').addClass('questions_answers');
   if (points_score >= 56) {
     good_score.innerHTML = points_score;
     bed_score.innerHTML = '';
@@ -47,6 +53,12 @@ function points__func() {
     good_score.innerHTML = '';
     bed_score.innerHTML = points_score;
   }
+
+  // for (let i = 0; i < answers.length; i+2) {
+  //   complite_answers = `, ${answers[i]}: ${answers[i+1]}`;
+  // }
+  
+  // questions_answers.innerHTML = complite_answers;
 }
 
 $('.home').on('click', function() {
@@ -56,4 +68,5 @@ $('.home').on('click', function() {
   $('.test').removeClass('test--hide');
   $('.top_title').removeClass('top_title--hide');
   $('.nav__items').removeClass('nav__items--hide');
- })
+  // $('.questions_answers--hide').removeClass('questions_answers');
+})

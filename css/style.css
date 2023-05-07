@@ -93,6 +93,7 @@ a{
   border: none;
   box-shadow: none;
   overflow: hidden;
+  transition: all 0s;
 }
 
 .pages__nav{
@@ -152,6 +153,7 @@ a{
   max-height: 0;
   overflow: hidden;
   border: none;
+  transition: all 0s;
 }
 
 li{
@@ -316,7 +318,6 @@ h3{
 }
 
 .points__show__page{
-  display: flex;
   text-align: center;
   font-size: 60px;
   background-color: rgb(199, 255, 250);
@@ -325,9 +326,9 @@ h3{
   padding-top: 50px;
   padding: 50px 50px 0 50px;
   border-radius: 15px;
+  max-width: 1000px;
   height: 350px;
   margin-bottom: 50px;
-  transition: .3s;
 }
 
 .the__points{
@@ -336,10 +337,9 @@ h3{
 }
 
 .your__points{
-  padding-left: 20%;
   font-size: 80px;
   color: rgb(78, 228, 255);
-  transition: .3s;
+  transition: all 0s;
 }
 
 .good{
@@ -349,6 +349,21 @@ h3{
 .bed{
   color: #d5007c;
 }
+
+/* .questions_answers--hide,
+.questions_answers--hide span{
+  font-size: 0;
+  text-align: left;
+  color: rgb(70, 105, 143);
+} */
+
+/* .questions_answers--hide span{
+  font-size: 30px;
+} */
+
+/* .questions_answers{
+  font-size: 20px;
+} */
 
 @media(max-width: 1800px){
   .star1,
