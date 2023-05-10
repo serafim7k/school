@@ -350,20 +350,15 @@ h3{
   color: #d5007c;
 }
 
-/* .questions_answers--hide,
+.questions_answers--hide,
 .questions_answers--hide span{
   font-size: 0;
-  text-align: left;
-  color: rgb(70, 105, 143);
-} */
+}
 
-/* .questions_answers--hide span{
-  font-size: 30px;
-} */
-
-/* .questions_answers{
-  font-size: 20px;
-} */
+.questions_answers{
+  color: rgb(67, 132, 206);
+  font-size: 25px;
+}
 
 @media(max-width: 1800px){
   .star1,
