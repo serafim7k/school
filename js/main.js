@@ -23,24 +23,24 @@ $(".points__input .check__points a, .go-top").on("click", function (event){
   $('body,html').animate({scrollTop: top}, 1000);
 });
 
-function its_false(question_num) {
-  if (questions.includes(question_num) != true){
-    $('#answer_'+question_num+'_false').addClass('input--active');
-    questions.push(question_num);
-    answers.push(question_num + ': ');
-    answers.push('FALSE' + '. ');
-  }
-}
+// function its_false(question_num) {
+//   if (questions.includes(question_num) != true){
+//     $('#answer_'+question_num+'_false').addClass('input--active');
+//     questions.push(question_num);
+//     answers.push(question_num + ': ');
+//     answers.push('FALSE;....');
+//   }
+// }
 
-function its_true(question_num) {
-  if (questions.includes(question_num) != true) {
-    points_score = points_score +  10;
-    questions.push(question_num);
-    $('#answer_'+question_num+'_true').addClass('input--active');
-    answers.push(question_num + ': ');
-    answers.push('TRUE' + '. ');
-  }
-}
+// function its_true(question_num) {
+//   if (questions.includes(question_num) != true) {
+//     points_score = points_score +  10;
+//     questions.push(question_num);
+//     $('#answer_'+question_num+'_true').addClass('input--active');
+//     answers.push(question_num + ': ');
+//     answers.push('TRUE;.... ');
+//   }
+// }
 
 function points__func() {
   $('#show__points').addClass('points__show__page');
